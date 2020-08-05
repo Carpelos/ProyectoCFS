@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name locallib)(type KiCad)(uri ${KIPRJMOD}/locallib.pretty)(options "")(descr ""))
+  (lib (name Molex-0548190589)(type KiCad)(uri ${KIPRJMOD}/Molex-0548190589.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid-master/MX_Only.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty-master)(options "")(descr ""))
+  (lib (name acheron_Components)(type KiCad)(uri ${KIPRJMOD}/acheron_Components.pretty)(options "")(descr ""))
+  (lib (name acheron_Connectors)(type KiCad)(uri ${KIPRJMOD}/acheron_Connectors.pretty)(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri "C:/Users/Carlos/Documents/diseños teclados/ALICE/Proyecto Alicia/pcb/Logo.pretty")(options "")(descr ""))
+  (lib (name LOGO)(type KiCad)(uri ${KIPRJMOD}/LOGO)(options "")(descr ""))
+)
