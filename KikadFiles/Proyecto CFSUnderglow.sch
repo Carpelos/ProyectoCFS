@@ -1,0 +1,1845 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1100 5825 1050 975 
+U 5A286589
+F0 "matrix" 60
+F1 "matrix.sch" 60
+$EndSheet
+$Comp
+L Device:C_Small C7
+U 1 1 5B330F95
+P 8150 9100
+F 0 "C7" H 8160 9170 50  0000 L CNN
+F 1 "0.1uF" H 8160 9020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 9100 50  0001 C CNN
+F 3 "" H 8150 9100 50  0001 C CNN
+	1    8150 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5B3311EA
+P 8850 9100
+F 0 "C5" H 8860 9170 50  0000 L CNN
+F 1 "10uF" H 8860 9020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8850 9100 50  0001 C CNN
+F 3 "" H 8850 9100 50  0001 C CNN
+	1    8850 9100
+	-1   0    0    1   
+$EndComp
+Text GLabel 3300 3650 0    60   BiDi ~ 0
+D-
+Text GLabel 3300 3550 0    60   BiDi ~ 0
+D+
+Text GLabel 5450 3000 2    60   Output ~ 0
+COL-1
+Text GLabel 3300 2450 0    60   Output ~ 0
+COL-19
+Text GLabel 3300 2950 0    60   Output ~ 0
+COL-18
+Text GLabel 5450 2000 2    60   Input ~ 0
+ROW-4
+Text GLabel 5450 2100 2    60   Input ~ 0
+ROW-5
+Text GLabel 3300 2850 0    60   Input ~ 0
+ROW-1
+Text GLabel 5450 4000 2    60   Input ~ 0
+ROW-2
+Text GLabel 5450 4300 2    60   Input ~ 0
+ROW-3
+Text GLabel 5450 3100 2    60   Output ~ 0
+COL-2
+Text GLabel 3300 3050 0    60   Output ~ 0
+COL-17
+Text GLabel 5450 3900 2    60   Output ~ 0
+COL-16
+Text GLabel 5450 2800 2    60   Output ~ 0
+COL-15
+Text GLabel 5450 2500 2    60   Output ~ 0
+COL-14
+Text GLabel 5450 2400 2    60   Output ~ 0
+COL-13
+Text GLabel 5450 2300 2    60   Output ~ 0
+COL-12
+Text GLabel 5450 4700 2    60   Output ~ 0
+COL-11
+Text GLabel 5450 4100 2    60   Output ~ 0
+COL-10
+Text GLabel 5450 4600 2    60   Output ~ 0
+COL-9
+Text GLabel 5450 4500 2    60   Output ~ 0
+COL-8
+Text GLabel 5450 3400 2    60   Output ~ 0
+COL-5
+Text GLabel 5450 3300 2    60   Output ~ 0
+COL-4
+Text GLabel 5450 3500 2    60   Output ~ 0
+COL-6
+Text GLabel 5450 4400 2    60   Output ~ 0
+COL-7
+Text GLabel 5450 3200 2    60   Output ~ 0
+COL-3
+$Comp
+L LED:WS2812B D118
+U 1 1 5F668BDE
+P 13500 2600
+F 0 "D118" V 13454 2944 50  0000 L CNN
+F 1 "WS2812B" V 13545 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13550 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13600 2225 50  0001 L TNN
+	1    13500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D120
+U 1 1 5F66B568
+P 14100 2600
+F 0 "D120" V 14054 2944 50  0000 L CNN
+F 1 "WS2812B" V 14145 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14150 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14200 2225 50  0001 L TNN
+	1    14100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D122
+U 1 1 5F66B56E
+P 14700 2600
+F 0 "D122" V 14654 2944 50  0000 L CNN
+F 1 "WS2812B" V 14745 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14750 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 2225 50  0001 L TNN
+	1    14700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D116
+U 1 1 5F668BD8
+P 12900 2600
+F 0 "D116" V 12854 2944 50  0000 L CNN
+F 1 "WS2812B" V 12945 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12950 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13000 2225 50  0001 L TNN
+	1    12900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D114
+U 1 1 5F665F70
+P 12300 2600
+F 0 "D114" V 12254 2944 50  0000 L CNN
+F 1 "WS2812B" V 12345 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12350 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12400 2225 50  0001 L TNN
+	1    12300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D112
+U 1 1 5F665F6A
+P 11700 2600
+F 0 "D112" V 11654 2944 50  0000 L CNN
+F 1 "WS2812B" V 11745 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11750 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11800 2225 50  0001 L TNN
+	1    11700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D110
+U 1 1 5F66310E
+P 11100 2600
+F 0 "D110" V 11054 2944 50  0000 L CNN
+F 1 "WS2812B" V 11145 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11150 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11200 2225 50  0001 L TNN
+	1    11100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D108
+U 1 1 5F663108
+P 10500 2600
+F 0 "D108" V 10454 2944 50  0000 L CNN
+F 1 "WS2812B" V 10545 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10550 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10600 2225 50  0001 L TNN
+	1    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D106
+U 1 1 5F65F30E
+P 9900 2600
+F 0 "D106" V 9854 2944 50  0000 L CNN
+F 1 "WS2812B" V 9945 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9950 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2225 50  0001 L TNN
+	1    9900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D104
+U 1 1 5F658472
+P 9300 2600
+F 0 "D104" V 9254 2944 50  0000 L CNN
+F 1 "WS2812B" V 9345 2944 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9350 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9400 2225 50  0001 L TNN
+	1    9300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D117
+U 1 1 5F67DEB1
+P 13500 1450
+F 0 "D117" V 13454 1794 50  0000 L CNN
+F 1 "WS2812B" V 13545 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13550 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13600 1075 50  0001 L TNN
+	1    13500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D119
+U 1 1 5F67DEB7
+P 14100 1450
+F 0 "D119" V 14054 1794 50  0000 L CNN
+F 1 "WS2812B" V 14145 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14150 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14200 1075 50  0001 L TNN
+	1    14100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D121
+U 1 1 5F67DEBD
+P 14700 1450
+F 0 "D121" V 14654 1794 50  0000 L CNN
+F 1 "WS2812B" V 14745 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14750 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 1075 50  0001 L TNN
+	1    14700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D115
+U 1 1 5F67DEC3
+P 12900 1450
+F 0 "D115" V 12854 1794 50  0000 L CNN
+F 1 "WS2812B" V 12945 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12950 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13000 1075 50  0001 L TNN
+	1    12900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D113
+U 1 1 5F67DEC9
+P 12300 1450
+F 0 "D113" V 12254 1794 50  0000 L CNN
+F 1 "WS2812B" V 12345 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12350 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12400 1075 50  0001 L TNN
+	1    12300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D111
+U 1 1 5F67DECF
+P 11700 1450
+F 0 "D111" V 11654 1794 50  0000 L CNN
+F 1 "WS2812B" V 11745 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11750 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11800 1075 50  0001 L TNN
+	1    11700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D109
+U 1 1 5F67DED5
+P 11100 1450
+F 0 "D109" V 11054 1794 50  0000 L CNN
+F 1 "WS2812B" V 11145 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11150 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11200 1075 50  0001 L TNN
+	1    11100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D107
+U 1 1 5F67DEDB
+P 10500 1450
+F 0 "D107" V 10454 1794 50  0000 L CNN
+F 1 "WS2812B" V 10545 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10550 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10600 1075 50  0001 L TNN
+	1    10500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D105
+U 1 1 5F67DEE1
+P 9900 1450
+F 0 "D105" V 9854 1794 50  0000 L CNN
+F 1 "WS2812B" V 9945 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9950 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 1075 50  0001 L TNN
+	1    9900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D103
+U 1 1 5F67DEE7
+P 9300 1450
+F 0 "D103" V 9254 1794 50  0000 L CNN
+F 1 "WS2812B" V 9345 1794 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9350 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9400 1075 50  0001 L TNN
+	1    9300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5F6E634C
+P 15200 2900
+F 0 "#PWR0107" H 15200 2650 50  0001 C CNN
+F 1 "GND" H 15205 2727 50  0000 C CNN
+F 2 "" H 15200 2900 50  0001 C CNN
+F 3 "" H 15200 2900 50  0001 C CNN
+	1    15200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1150 9300 1150
+Wire Wire Line
+	15200 1150 15200 2300
+Wire Wire Line
+	15200 2300 14700 2300
+Connection ~ 9300 1150
+Wire Wire Line
+	9300 1150 9900 1150
+Connection ~ 9900 1150
+Wire Wire Line
+	9900 1150 10500 1150
+Connection ~ 10500 1150
+Wire Wire Line
+	10500 1150 11100 1150
+Connection ~ 11100 1150
+Wire Wire Line
+	11100 1150 11700 1150
+Connection ~ 11700 1150
+Wire Wire Line
+	11700 1150 12300 1150
+Connection ~ 12300 1150
+Wire Wire Line
+	12300 1150 12900 1150
+Connection ~ 12900 1150
+Wire Wire Line
+	12900 1150 13500 1150
+Connection ~ 13500 1150
+Wire Wire Line
+	13500 1150 14100 1150
+Connection ~ 14100 1150
+Wire Wire Line
+	14100 1150 14700 1150
+Connection ~ 14700 1150
+Wire Wire Line
+	14700 1150 15200 1150
+Connection ~ 9900 2300
+Wire Wire Line
+	9900 2300 9300 2300
+Connection ~ 10500 2300
+Wire Wire Line
+	10500 2300 9900 2300
+Connection ~ 11100 2300
+Wire Wire Line
+	11100 2300 10500 2300
+Connection ~ 11700 2300
+Wire Wire Line
+	11700 2300 11100 2300
+Connection ~ 12300 2300
+Wire Wire Line
+	12300 2300 11700 2300
+Connection ~ 12900 2300
+Wire Wire Line
+	12900 2300 12300 2300
+Connection ~ 13500 2300
+Wire Wire Line
+	13500 2300 12900 2300
+Connection ~ 14100 2300
+Wire Wire Line
+	14100 2300 13500 2300
+Connection ~ 14700 2300
+Wire Wire Line
+	14700 2300 14100 2300
+Wire Wire Line
+	15200 2900 14700 2900
+Wire Wire Line
+	8650 2900 8650 1750
+Wire Wire Line
+	8650 1750 9300 1750
+Connection ~ 9300 2900
+Wire Wire Line
+	9300 2900 8650 2900
+Connection ~ 9900 2900
+Wire Wire Line
+	9900 2900 9300 2900
+Connection ~ 10500 2900
+Wire Wire Line
+	10500 2900 9900 2900
+Connection ~ 11100 2900
+Wire Wire Line
+	11100 2900 10500 2900
+Connection ~ 11700 2900
+Wire Wire Line
+	11700 2900 11100 2900
+Connection ~ 12300 2900
+Wire Wire Line
+	12300 2900 11700 2900
+Connection ~ 12900 2900
+Wire Wire Line
+	12900 2900 12300 2900
+Connection ~ 13500 2900
+Wire Wire Line
+	13500 2900 12900 2900
+Connection ~ 14100 2900
+Wire Wire Line
+	14100 2900 13500 2900
+Connection ~ 14700 2900
+Wire Wire Line
+	14700 2900 14100 2900
+Connection ~ 9300 1750
+Wire Wire Line
+	9300 1750 9900 1750
+Connection ~ 9900 1750
+Wire Wire Line
+	9900 1750 10500 1750
+Connection ~ 10500 1750
+Wire Wire Line
+	10500 1750 11100 1750
+Connection ~ 11100 1750
+Wire Wire Line
+	11100 1750 11700 1750
+Connection ~ 11700 1750
+Wire Wire Line
+	11700 1750 12300 1750
+Connection ~ 12300 1750
+Wire Wire Line
+	12300 1750 12900 1750
+Connection ~ 12900 1750
+Wire Wire Line
+	12900 1750 13500 1750
+Connection ~ 13500 1750
+Wire Wire Line
+	13500 1750 14100 1750
+Connection ~ 14100 1750
+Wire Wire Line
+	14100 1750 14700 1750
+Wire Wire Line
+	15000 1450 15000 2050
+Wire Wire Line
+	15000 2050 9000 2050
+Wire Wire Line
+	9000 2050 9000 2600
+Text GLabel 8800 1450 0    50   Input ~ 0
+UNDERGLOW
+NoConn ~ 15000 2600
+Text GLabel 5450 4200 2    50   Output ~ 0
+UNDERGLOW
+$Comp
+L Device:C_Small C1
+U 1 1 5F704F92
+P 11200 4000
+F 0 "C1" H 11050 3900 50  0000 L CNN
+F 1 "0.1uf" H 10950 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11200 4000 50  0001 C CNN
+F 3 "~" H 11200 4000 50  0001 C CNN
+	1    11200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5F72E2FB
+P 11500 4000
+F 0 "C10" H 11350 3900 50  0000 L CNN
+F 1 "0.1uf" H 11250 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11500 4000 50  0001 C CNN
+F 3 "~" H 11500 4000 50  0001 C CNN
+	1    11500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5F732CCB
+P 11800 4000
+F 0 "C12" H 11650 3900 50  0000 L CNN
+F 1 "0.1uf" H 11550 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 4000 50  0001 C CNN
+F 3 "~" H 11800 4000 50  0001 C CNN
+	1    11800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5F7375BC
+P 12100 4000
+F 0 "C14" H 11950 3900 50  0000 L CNN
+F 1 "0.1uf" H 11850 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12100 4000 50  0001 C CNN
+F 3 "~" H 12100 4000 50  0001 C CNN
+	1    12100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5F73BD0B
+P 12400 4000
+F 0 "C16" H 12250 3900 50  0000 L CNN
+F 1 "0.1uf" H 12150 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12400 4000 50  0001 C CNN
+F 3 "~" H 12400 4000 50  0001 C CNN
+	1    12400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 5F742667
+P 12700 4000
+F 0 "C18" H 12550 3900 50  0000 L CNN
+F 1 "0.1uf" H 12450 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12700 4000 50  0001 C CNN
+F 3 "~" H 12700 4000 50  0001 C CNN
+	1    12700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5F74266D
+P 13000 4000
+F 0 "C20" H 12850 3900 50  0000 L CNN
+F 1 "0.1uf" H 12750 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13000 4000 50  0001 C CNN
+F 3 "~" H 13000 4000 50  0001 C CNN
+	1    13000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5F742673
+P 13300 4000
+F 0 "C22" H 13150 3900 50  0000 L CNN
+F 1 "0.1uf" H 13050 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13300 4000 50  0001 C CNN
+F 3 "~" H 13300 4000 50  0001 C CNN
+	1    13300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 5F742679
+P 13600 4000
+F 0 "C24" H 13450 3900 50  0000 L CNN
+F 1 "0.1uf" H 13350 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13600 4000 50  0001 C CNN
+F 3 "~" H 13600 4000 50  0001 C CNN
+	1    13600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 5F74267F
+P 13900 4000
+F 0 "C26" H 13750 3900 50  0000 L CNN
+F 1 "0.1uf" H 13650 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13900 4000 50  0001 C CNN
+F 3 "~" H 13900 4000 50  0001 C CNN
+	1    13900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5F747A8F
+P 11200 4350
+F 0 "C9" H 11050 4250 50  0000 L CNN
+F 1 "0.1uf" H 10950 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11200 4350 50  0001 C CNN
+F 3 "~" H 11200 4350 50  0001 C CNN
+	1    11200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5F747A95
+P 11500 4350
+F 0 "C11" H 11350 4250 50  0000 L CNN
+F 1 "0.1uf" H 11250 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11500 4350 50  0001 C CNN
+F 3 "~" H 11500 4350 50  0001 C CNN
+	1    11500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5F747A9B
+P 11800 4350
+F 0 "C13" H 11650 4250 50  0000 L CNN
+F 1 "0.1uf" H 11550 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 4350 50  0001 C CNN
+F 3 "~" H 11800 4350 50  0001 C CNN
+	1    11800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5F747AA1
+P 12100 4350
+F 0 "C15" H 11950 4250 50  0000 L CNN
+F 1 "0.1uf" H 11850 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12100 4350 50  0001 C CNN
+F 3 "~" H 12100 4350 50  0001 C CNN
+	1    12100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5F747AA7
+P 12400 4350
+F 0 "C17" H 12250 4250 50  0000 L CNN
+F 1 "0.1uf" H 12150 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12400 4350 50  0001 C CNN
+F 3 "~" H 12400 4350 50  0001 C CNN
+	1    12400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 5F74D9AB
+P 12700 4350
+F 0 "C19" H 12550 4250 50  0000 L CNN
+F 1 "0.1uf" H 12450 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12700 4350 50  0001 C CNN
+F 3 "~" H 12700 4350 50  0001 C CNN
+	1    12700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 5F74D9B1
+P 13000 4350
+F 0 "C21" H 12850 4250 50  0000 L CNN
+F 1 "0.1uf" H 12750 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13000 4350 50  0001 C CNN
+F 3 "~" H 13000 4350 50  0001 C CNN
+	1    13000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 5F74D9B7
+P 13300 4350
+F 0 "C23" H 13150 4250 50  0000 L CNN
+F 1 "0.1uf" H 13050 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13300 4350 50  0001 C CNN
+F 3 "~" H 13300 4350 50  0001 C CNN
+	1    13300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 5F74D9BD
+P 13600 4350
+F 0 "C25" H 13450 4250 50  0000 L CNN
+F 1 "0.1uf" H 13350 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13600 4350 50  0001 C CNN
+F 3 "~" H 13600 4350 50  0001 C CNN
+	1    13600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 5F74D9C3
+P 13900 4350
+F 0 "C27" H 13750 4250 50  0000 L CNN
+F 1 "0.1uf" H 13650 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13900 4350 50  0001 C CNN
+F 3 "~" H 13900 4350 50  0001 C CNN
+	1    13900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F752EEE
+P 14150 4450
+F 0 "#PWR0110" H 14150 4200 50  0001 C CNN
+F 1 "GND" H 14155 4277 50  0000 C CNN
+F 2 "" H 14150 4450 50  0001 C CNN
+F 3 "" H 14150 4450 50  0001 C CNN
+	1    14150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3900 11200 3900
+Connection ~ 11200 3900
+Wire Wire Line
+	11200 3900 11500 3900
+Connection ~ 11500 3900
+Wire Wire Line
+	11500 3900 11800 3900
+Connection ~ 11800 3900
+Wire Wire Line
+	11800 3900 12100 3900
+Connection ~ 12100 3900
+Wire Wire Line
+	12100 3900 12400 3900
+Connection ~ 12400 3900
+Wire Wire Line
+	12400 3900 12700 3900
+Connection ~ 12700 3900
+Wire Wire Line
+	12700 3900 13000 3900
+Connection ~ 13000 3900
+Wire Wire Line
+	13000 3900 13300 3900
+Connection ~ 13300 3900
+Wire Wire Line
+	13300 3900 13600 3900
+Connection ~ 13600 3900
+Wire Wire Line
+	13600 3900 13900 3900
+Wire Wire Line
+	10750 3900 10750 4250
+Wire Wire Line
+	10750 4250 11200 4250
+Connection ~ 11200 4250
+Wire Wire Line
+	11200 4250 11500 4250
+Connection ~ 11500 4250
+Wire Wire Line
+	11500 4250 11800 4250
+Connection ~ 11800 4250
+Wire Wire Line
+	11800 4250 12100 4250
+Connection ~ 12100 4250
+Wire Wire Line
+	12100 4250 12400 4250
+Connection ~ 12400 4250
+Wire Wire Line
+	12400 4250 12700 4250
+Connection ~ 12700 4250
+Wire Wire Line
+	12700 4250 13000 4250
+Connection ~ 13000 4250
+Wire Wire Line
+	13000 4250 13300 4250
+Connection ~ 13300 4250
+Wire Wire Line
+	13300 4250 13600 4250
+Connection ~ 13600 4250
+Wire Wire Line
+	13600 4250 13900 4250
+Wire Wire Line
+	11200 4100 11500 4100
+Wire Wire Line
+	14150 4100 14150 4450
+Connection ~ 11500 4100
+Wire Wire Line
+	11500 4100 11800 4100
+Connection ~ 11800 4100
+Wire Wire Line
+	11800 4100 12100 4100
+Connection ~ 12100 4100
+Wire Wire Line
+	12100 4100 12400 4100
+Connection ~ 12400 4100
+Wire Wire Line
+	12400 4100 12700 4100
+Connection ~ 12700 4100
+Wire Wire Line
+	12700 4100 13000 4100
+Connection ~ 13000 4100
+Wire Wire Line
+	13000 4100 13300 4100
+Connection ~ 13300 4100
+Wire Wire Line
+	13300 4100 13600 4100
+Connection ~ 13600 4100
+Wire Wire Line
+	13600 4100 13900 4100
+Connection ~ 13900 4100
+Wire Wire Line
+	13900 4100 14150 4100
+Wire Wire Line
+	11200 4450 11500 4450
+Connection ~ 14150 4450
+Connection ~ 11500 4450
+Wire Wire Line
+	11500 4450 11800 4450
+Connection ~ 11800 4450
+Wire Wire Line
+	11800 4450 12100 4450
+Connection ~ 12100 4450
+Wire Wire Line
+	12100 4450 12400 4450
+Connection ~ 12400 4450
+Wire Wire Line
+	12400 4450 12700 4450
+Connection ~ 12700 4450
+Wire Wire Line
+	12700 4450 13000 4450
+Connection ~ 13000 4450
+Wire Wire Line
+	13000 4450 13300 4450
+Connection ~ 13300 4450
+Wire Wire Line
+	13300 4450 13600 4450
+Connection ~ 13600 4450
+Wire Wire Line
+	13600 4450 13900 4450
+Connection ~ 13900 4450
+Wire Wire Line
+	13900 4450 14150 4450
+Wire Notes Line
+	2900 10250 5550 10250
+Wire Notes Line
+	5550 6850 2900 6850
+Text Notes 2950 10200 0    50   Italic 10
+USB Connector
+Wire Notes Line
+	2900 6850 2900 10250
+Wire Notes Line
+	5550 6850 5550 10250
+Wire Notes Line
+	2900 10100 3600 10100
+Wire Notes Line
+	3600 10100 3600 10250
+$Comp
+L acheronSymbols:TYPE-C-31-M12_13 J1
+U 1 1 5F39D274
+P 3500 8300
+F 0 "J1" H 3607 9717 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13" H 3607 9626 50  0000 C CNN
+F 2 "acheron_Connectors:TYPE-C-31-M-12" V 3000 8350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3700 8350 50  0001 C CNN
+	1    3500 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F3BB205
+P 3050 9900
+F 0 "R1" V 3000 9850 31  0000 L CNN
+F 1 "1M" V 3050 9850 31  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 9900 50  0001 C CNN
+F 3 "~" H 3050 9900 50  0001 C CNN
+	1    3050 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F3BCC4B
+P 3200 9900
+F 0 "C2" V 3270 9931 31  0000 L CNN
+F 1 "4.7nf" V 3310 9869 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 9900 50  0001 C CNN
+F 3 "~" H 3200 9900 50  0001 C CNN
+	1    3200 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3E9B8A
+P 3700 10000
+F 0 "#PWR0101" H 3700 9750 50  0001 C CNN
+F 1 "GND" H 3705 9827 50  0000 C CNN
+F 2 "" H 3700 10000 50  0001 C CNN
+F 3 "" H 3700 10000 50  0001 C CNN
+	1    3700 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 10000 3200 10000
+Connection ~ 3200 10000
+Wire Wire Line
+	3200 10000 3400 10000
+Wire Wire Line
+	3050 9800 3200 9800
+Wire Wire Line
+	3200 9750 3200 9800
+Connection ~ 3200 9800
+Wire Wire Line
+	3400 9750 3400 10000
+Connection ~ 3400 10000
+Wire Wire Line
+	3400 10000 3500 10000
+Wire Wire Line
+	3500 9750 3500 10000
+Connection ~ 3500 10000
+Wire Wire Line
+	3500 10000 3700 10000
+NoConn ~ 4100 9350
+NoConn ~ 4100 9450
+Wire Wire Line
+	4100 8600 4250 8600
+Wire Wire Line
+	4100 8700 4250 8700
+Wire Wire Line
+	4250 8700 4250 8600
+Connection ~ 4250 8600
+Wire Wire Line
+	4250 8600 4500 8600
+Wire Wire Line
+	4100 8400 4250 8400
+Wire Wire Line
+	4250 8400 4250 8300
+Wire Wire Line
+	4250 8300 4100 8300
+Wire Wire Line
+	4250 8300 4500 8300
+Connection ~ 4250 8300
+$Comp
+L Device:R_Small R2
+U 1 1 5F4657CF
+P 4500 7650
+F 0 "R2" V 4427 7650 31  0000 C CNN
+F 1 "5.1k" V 4503 7650 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 7650 50  0001 C CNN
+F 3 "~" H 4500 7650 50  0001 C CNN
+	1    4500 7650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5F48853E
+P 4500 7850
+F 0 "R3" V 4427 7850 31  0000 C CNN
+F 1 "5.1k" V 4503 7850 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 7850 50  0001 C CNN
+F 3 "~" H 4500 7850 50  0001 C CNN
+	1    4500 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F4937F0
+P 4750 7850
+F 0 "#PWR0102" H 4750 7600 50  0001 C CNN
+F 1 "GND" H 4755 7677 50  0000 C CNN
+F 2 "" H 4750 7850 50  0001 C CNN
+F 3 "" H 4750 7850 50  0001 C CNN
+	1    4750 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7850 4400 7850
+Wire Wire Line
+	4100 7650 4400 7650
+Wire Wire Line
+	4600 7650 4750 7650
+Wire Wire Line
+	4750 7650 4750 7850
+Wire Wire Line
+	4600 7850 4750 7850
+Connection ~ 4750 7850
+Text GLabel 4650 7150 2    50   Output ~ 10
+VBUS
+Wire Wire Line
+	4100 7150 4400 7150
+Wire Wire Line
+	4100 7250 4400 7250
+Wire Wire Line
+	4400 7250 4400 7150
+Connection ~ 4400 7150
+Wire Wire Line
+	4400 7150 4650 7150
+$Comp
+L Power_Protection:USBLC6-2SC6 U2
+U 1 1 5F4DC6DD
+P 6350 9200
+F 0 "U2" V 6068 9644 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 6144 9644 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6350 8700 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 6550 9550 50  0001 C CNN
+	1    6350 9200
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 9750 0    50   Input ~ 10
+Dbus+
+$Comp
+L power:GND #PWR0103
+U 1 1 5F4F82A9
+P 5850 9250
+F 0 "#PWR0103" H 5850 9000 50  0001 C CNN
+F 1 "GND" H 5855 9077 50  0000 C CNN
+F 2 "" H 5850 9250 50  0001 C CNN
+F 3 "" H 5850 9250 50  0001 C CNN
+	1    5850 9250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 8750 0    50   Input ~ 10
+Dbus-
+Text GLabel 6700 8750 2    50   Input ~ 10
+D-
+Text GLabel 6700 9750 2    50   Input ~ 10
+D+
+Text GLabel 7050 9200 2    50   Input ~ 10
+VBUS
+$Comp
+L power:GND #PWR0104
+U 1 1 5F51E340
+P 6900 9450
+F 0 "#PWR0104" H 6900 9200 50  0001 C CNN
+F 1 "GND" H 6905 9277 50  0000 C CNN
+F 2 "" H 6900 9450 50  0001 C CNN
+F 3 "" H 6900 9450 50  0001 C CNN
+	1    6900 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F52ADC8
+P 6900 9300
+F 0 "C3" V 6970 9331 31  0000 L CNN
+F 1 "4.7nf" V 7010 9269 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 9300 50  0001 C CNN
+F 3 "~" H 6900 9300 50  0001 C CNN
+	1    6900 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 9200 6900 9200
+Connection ~ 6900 9200
+Wire Wire Line
+	6900 9200 7050 9200
+Wire Wire Line
+	6900 9400 6900 9450
+Wire Wire Line
+	6700 9750 6450 9750
+Wire Wire Line
+	6450 9750 6450 9600
+Wire Wire Line
+	6250 9600 6250 9750
+Wire Wire Line
+	6250 9750 6100 9750
+Wire Wire Line
+	5950 9200 5850 9200
+Wire Wire Line
+	5850 9200 5850 9250
+Wire Wire Line
+	6050 8750 6250 8750
+Wire Wire Line
+	6250 8750 6250 8800
+Wire Wire Line
+	6450 8800 6450 8750
+Wire Wire Line
+	6450 8750 6700 8750
+Text Notes 7000 9900 0    50   Italic 10
+Data ESD \nprotection
+Wire Notes Line
+	6950 9700 7500 9700
+Wire Notes Line
+	5700 8600 5700 9950
+Wire Notes Line
+	5700 9950 7500 9950
+Wire Notes Line
+	7500 8600 5700 8600
+Wire Notes Line
+	7500 8600 7500 9950
+Text GLabel 6850 7850 0    50   Input ~ 10
+3.3V
+Text GLabel 4500 8600 2    50   Input ~ 10
+Dbus+
+Text GLabel 4500 8300 2    50   Input ~ 10
+Dbus-
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F5DB3B8
+P 7150 7850
+F 0 "SW1" H 7150 7741 50  0000 C CNN
+F 1 "SW_Push" H 7150 7650 50  0000 C CNN
+F 2 "acheron_Hardware:smdPushBtn" H 7150 8050 50  0001 C CNN
+F 3 "~" H 7150 8050 50  0001 C CNN
+	1    7150 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DTC123J Q1
+U 1 1 5F5D5ACC
+P 7500 7350
+F 0 "Q1" V 7825 7350 50  0000 C CNN
+F 1 "DTC123J" V 7734 7350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 7350 50  0001 L CNN
+F 3 "" H 7500 7350 50  0001 L CNN
+	1    7500 7350
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F5ED501
+P 7050 7250
+F 0 "#PWR0105" H 7050 7000 50  0001 C CNN
+F 1 "GND" H 7055 7077 50  0000 C CNN
+F 2 "" H 7050 7250 50  0001 C CNN
+F 3 "" H 7050 7250 50  0001 C CNN
+	1    7050 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5F5EE914
+P 7950 7350
+F 0 "C4" V 8020 7381 31  0000 L CNN
+F 1 "4.7nf" V 8060 7319 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 7350 50  0001 C CNN
+F 3 "~" H 7950 7350 50  0001 C CNN
+	1    7950 7350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 7250 2    50   BiDi ~ 0
+NRST
+$Comp
+L power:GND #PWR0106
+U 1 1 5F60AC5C
+P 7950 7500
+F 0 "#PWR0106" H 7950 7250 50  0001 C CNN
+F 1 "GND" H 7955 7327 50  0000 C CNN
+F 2 "" H 7950 7500 50  0001 C CNN
+F 3 "" H 7950 7500 50  0001 C CNN
+	1    7950 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 7250 7950 7250
+Connection ~ 7950 7250
+Wire Wire Line
+	7950 7250 8250 7250
+Wire Wire Line
+	7050 7250 7300 7250
+Wire Wire Line
+	7950 7450 7950 7500
+$Comp
+L Diode:1N4148 D1
+U 1 1 5F6447A3
+P 7700 7850
+F 0 "D1" H 7700 7633 50  0000 C CNN
+F 1 "1N4148" H 7700 7724 50  0000 C CNN
+F 2 "acheron_Components:D_SOD-123" H 7700 7675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7700 7850 50  0001 C CNN
+	1    7700 7850
+	-1   0    0    1   
+$EndComp
+Text GLabel 8350 7850 2    50   BiDi ~ 0
+BOOT0
+$Comp
+L Device:R_Small R4
+U 1 1 5F66A812
+P 8000 8050
+F 0 "R4" V 7927 8050 31  0000 C CNN
+F 1 "100k" V 8003 8050 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8000 8050 50  0001 C CNN
+F 3 "~" H 8000 8050 50  0001 C CNN
+	1    8000 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 5F6B2463
+P 8150 8050
+F 0 "C28" V 8220 8081 31  0000 L CNN
+F 1 "10uf" V 8260 8019 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 8050 50  0001 C CNN
+F 3 "~" H 8150 8050 50  0001 C CNN
+	1    8150 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 7850 6950 7850
+Wire Wire Line
+	7350 7850 7500 7850
+Wire Wire Line
+	7850 7850 8000 7850
+Wire Wire Line
+	8000 7850 8000 7950
+Connection ~ 8000 7850
+Wire Wire Line
+	8000 7850 8150 7850
+Wire Wire Line
+	8150 7950 8150 7850
+Connection ~ 8150 7850
+Wire Wire Line
+	8150 7850 8350 7850
+Wire Wire Line
+	7500 7600 7500 7850
+Connection ~ 7500 7850
+Wire Wire Line
+	7500 7850 7550 7850
+Wire Notes Line
+	9050 8450 9050 6850
+Wire Notes Line
+	9050 6850 6500 6850
+Wire Notes Line
+	8300 8450 8300 8250
+Wire Notes Line
+	8300 8250 9050 8250
+Wire Notes Line
+	6500 6850 6500 8450
+Wire Notes Line
+	6500 8450 9050 8450
+Text Notes 8350 8400 0    50   Italic 10
+Hard reset circuit\n
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J2
+U 1 1 5F7513F2
+P 10050 7900
+F 0 "J2" H 10100 8900 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 10450 9000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10050 7900 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9700 6650 50  0001 C CNN
+	1    10050 7900
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 7200 1    50   Input ~ 10
+3.3V
+Text GLabel 10800 7600 2    50   BiDi ~ 0
+NRST
+NoConn ~ 10550 8000
+NoConn ~ 10550 8100
+Text GLabel 10800 7800 2    50   Input ~ 0
+SWCLK
+Text GLabel 10800 7900 2    50   Input ~ 0
+SWDIO
+$Comp
+L power:GND #PWR0111
+U 1 1 5F7B77FD
+P 10000 8700
+F 0 "#PWR0111" H 10000 8450 50  0001 C CNN
+F 1 "GND" H 10005 8527 50  0000 C CNN
+F 2 "" H 10000 8700 50  0001 C CNN
+F 3 "" H 10000 8700 50  0001 C CNN
+	1    10000 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 8500 9950 8650
+Wire Wire Line
+	9950 8650 10000 8650
+Wire Wire Line
+	10000 8650 10000 8700
+Wire Wire Line
+	10050 8500 10050 8650
+Wire Wire Line
+	10050 8650 10000 8650
+Connection ~ 10000 8650
+Wire Wire Line
+	10050 7200 10050 7300
+Wire Wire Line
+	10550 7600 10800 7600
+Wire Wire Line
+	10550 7800 10800 7800
+Wire Wire Line
+	10550 7900 10800 7900
+Wire Notes Line
+	6950 9700 6950 9950
+Wire Notes Line
+	9350 8950 11300 8950
+Wire Notes Line
+	11300 8950 11300 6700
+Wire Notes Line
+	11300 6700 9350 6700
+Wire Notes Line
+	9350 6700 9350 8950
+Text Notes 11050 8900 0    50   Italic 10
+SWD\n
+Wire Notes Line
+	10950 8950 10950 8800
+Wire Notes Line
+	10950 8800 11300 8800
+$Comp
+L Device:C_Small C29
+U 1 1 5F88B6EF
+P 8650 9100
+F 0 "C29" H 8660 9170 50  0000 L CNN
+F 1 "0.1uF" H 8660 9020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 9100 50  0001 C CNN
+F 3 "" H 8650 9100 50  0001 C CNN
+	1    8650 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5B330FEA
+P 8400 9100
+F 0 "C8" H 8410 9170 50  0000 L CNN
+F 1 "0.1uF" H 8410 9020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 9100 50  0001 C CNN
+F 3 "" H 8400 9100 50  0001 C CNN
+	1    8400 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5B330F05
+P 7900 9100
+F 0 "C6" H 7910 9170 50  0000 L CNN
+F 1 "0.1uF" H 7910 9020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 9100 50  0001 C CNN
+F 3 "" H 7900 9100 50  0001 C CNN
+	1    7900 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5B33158B
+P 7900 9300
+F 0 "#PWR012" H 7900 9050 50  0001 C CNN
+F 1 "GND" H 7900 9150 50  0000 C CNN
+F 2 "" H 7900 9300 50  0001 C CNN
+F 3 "" H 7900 9300 50  0001 C CNN
+	1    7900 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8950 8150 8950
+Wire Wire Line
+	8850 8950 8850 9000
+Wire Wire Line
+	7900 8950 7900 9000
+Wire Wire Line
+	8150 9000 8150 8950
+Connection ~ 8150 8950
+Wire Wire Line
+	8150 8950 8400 8950
+Wire Wire Line
+	8400 9000 8400 8950
+Connection ~ 8400 8950
+Wire Wire Line
+	8400 8950 8650 8950
+Wire Wire Line
+	8650 9000 8650 8950
+Connection ~ 8650 8950
+Wire Wire Line
+	8650 8950 8850 8950
+Wire Wire Line
+	7900 9200 7900 9250
+Wire Wire Line
+	7900 9250 8150 9250
+Wire Wire Line
+	8850 9250 8850 9200
+Connection ~ 7900 9250
+Wire Wire Line
+	7900 9250 7900 9300
+Wire Wire Line
+	8650 9200 8650 9250
+Connection ~ 8650 9250
+Wire Wire Line
+	8650 9250 8850 9250
+Wire Wire Line
+	8400 9200 8400 9250
+Connection ~ 8400 9250
+Wire Wire Line
+	8400 9250 8650 9250
+Wire Wire Line
+	8150 9200 8150 9250
+Connection ~ 8150 9250
+Wire Wire Line
+	8150 9250 8400 9250
+Wire Notes Line
+	7650 8650 9000 8650
+Wire Notes Line
+	9000 8650 9000 9600
+Wire Notes Line
+	9000 9600 7650 9600
+Wire Notes Line
+	7650 8650 7650 9600
+Text Notes 8250 8750 0    50   Italic 10
+Bypass capacitors\n
+Wire Notes Line
+	8200 8650 8200 8800
+Wire Notes Line
+	8200 8800 9000 8800
+$Comp
+L Device:LED_Small LEDNUM1
+U 1 1 5FA81FDA
+P 9950 9800
+F 0 "LEDNUM1" V 9950 9730 31  0000 R CNN
+F 1 "L" V 9919 9730 31  0001 R CNN
+F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" V 9950 9800 50  0001 C CNN
+F 3 "~" V 9950 9800 50  0001 C CNN
+	1    9950 9800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small LEDCAPS1
+U 1 1 5FA84E89
+P 10300 9800
+F 0 "LEDCAPS1" V 10300 9730 31  0000 R CNN
+F 1 "L" V 10269 9730 31  0001 R CNN
+F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" V 10300 9800 50  0001 C CNN
+F 3 "~" V 10300 9800 50  0001 C CNN
+	1    10300 9800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small LEDSCRL1
+U 1 1 5FA969B0
+P 10700 9800
+F 0 "LEDSCRL1" V 10700 9730 31  0000 R CNN
+F 1 "L" V 10669 9730 31  0001 R CNN
+F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" V 10700 9800 50  0001 C CNN
+F 3 "~" V 10700 9800 50  0001 C CNN
+	1    10700 9800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9950 9600 1    50   Input Italic 10
+INDICATOR1
+Text GLabel 10400 9600 1    50   Input Italic 10
+INDICATOR2
+Text GLabel 10700 9600 1    50   Input Italic 10
+INDICATOR3
+Wire Wire Line
+	9950 9600 9950 9700
+Wire Wire Line
+	10300 9600 10300 9700
+Wire Wire Line
+	10700 9600 10700 9700
+$Comp
+L power:GND #PWR0112
+U 1 1 5FB14440
+P 10300 10250
+F 0 "#PWR0112" H 10300 10000 50  0001 C CNN
+F 1 "GND" H 10305 10077 50  0000 C CNN
+F 2 "" H 10300 10250 50  0001 C CNN
+F 3 "" H 10300 10250 50  0001 C CNN
+	1    10300 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 10100 9950 10200
+Wire Wire Line
+	9950 10200 10300 10200
+Wire Wire Line
+	10700 10200 10700 10100
+Wire Wire Line
+	10300 10100 10300 10200
+Connection ~ 10300 10200
+Wire Wire Line
+	10300 10200 10500 10200
+Wire Wire Line
+	10300 10200 10300 10250
+Wire Notes Line
+	9700 10450 11200 10450
+Text Notes 10600 10400 0    50   Italic 10
+Indicator lights
+Wire Notes Line
+	10550 10450 10550 10250
+Wire Notes Line
+	10550 10250 11200 10250
+$Comp
+L Regulator_Linear:TLV1117-33 U3
+U 1 1 5FB73BAA
+P 13200 7600
+F 0 "U3" H 13200 7842 50  0000 C CNN
+F 1 "TLV1117-33" H 13200 7751 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 13200 7600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv1117.pdf" H 13200 7600 50  0001 C CNN
+	1    13200 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 12000 7600 0    50   Input ~ 10
+VBUS
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5FB87D4E
+P 12200 7600
+F 0 "F1" V 12028 7600 35  0000 C CNN
+F 1 "1.5A trip polyfuse" V 12097 7600 35  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 12250 7400 50  0001 L CNN
+F 3 "~" H 12200 7600 50  0001 C CNN
+	1    12200 7600
+	0    1    1    0   
+$EndComp
+Text GLabel 12500 7400 1    50   Output Italic 10
+5v
+$Comp
+L Device:D_Schottky_Small DF1
+U 1 1 5FB8C30E
+P 12500 7800
+F 0 "DF1" V 12450 7650 31  0000 L CNN
+F 1 "RB060M-60TR" V 12500 7400 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" V 12500 7800 50  0001 C CNN
+F 3 "~" V 12500 7800 50  0001 C CNN
+	1    12500 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FB9033B
+P 8100 8200
+F 0 "#PWR0113" H 8100 7950 50  0001 C CNN
+F 1 "GND" H 8105 8027 50  0000 C CNN
+F 2 "" H 8100 8200 50  0001 C CNN
+F 3 "" H 8100 8200 50  0001 C CNN
+	1    8100 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 8150 8100 8150
+Wire Wire Line
+	8100 8150 8100 8200
+Connection ~ 8100 8150
+Wire Wire Line
+	8100 8150 8150 8150
+$Comp
+L Device:R_Small R5
+U 1 1 5FBC8B48
+P 12700 7800
+F 0 "R5" V 12627 7800 31  0000 C CNN
+F 1 "100k" V 12703 7800 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12700 7800 50  0001 C CNN
+F 3 "~" H 12700 7800 50  0001 C CNN
+	1    12700 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5FBDB660
+P 12600 8150
+F 0 "#PWR0114" H 12600 7900 50  0001 C CNN
+F 1 "GND" H 12605 7977 50  0000 C CNN
+F 2 "" H 12600 8150 50  0001 C CNN
+F 3 "" H 12600 8150 50  0001 C CNN
+	1    12600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4007 D2
+U 1 1 5FBDCCA8
+P 13200 7150
+F 0 "D2" H 13200 7367 50  0000 C CNN
+F 1 "1N4007" H 13200 7276 50  0000 C CNN
+F 2 "acheron_Components:D_SOD-123" H 13200 6975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 13200 7150 50  0001 C CNN
+	1    13200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 5FBDE687
+P 12850 7950
+F 0 "C30" V 12920 7981 31  0000 L CNN
+F 1 "10uf" V 12960 7919 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12850 7950 50  0001 C CNN
+F 3 "~" H 12850 7950 50  0001 C CNN
+	1    12850 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 5FBF141E
+P 13550 7950
+F 0 "C31" V 13620 7981 31  0000 L CNN
+F 1 "0.1uf" V 13660 7919 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13550 7950 50  0001 C CNN
+F 3 "~" H 13550 7950 50  0001 C CNN
+	1    13550 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 13950 7600 2    50   Output ~ 10
+3.3V
+Wire Wire Line
+	12000 7600 12100 7600
+Wire Wire Line
+	12300 7600 12500 7600
+Wire Wire Line
+	12500 7400 12500 7600
+Connection ~ 12500 7600
+Wire Wire Line
+	12500 7600 12700 7600
+Wire Wire Line
+	12500 7600 12500 7700
+Wire Wire Line
+	12500 7900 12500 8150
+Wire Wire Line
+	12500 8150 12600 8150
+Wire Wire Line
+	12600 8150 12700 8150
+Wire Wire Line
+	12700 8150 12700 7900
+Connection ~ 12600 8150
+Wire Wire Line
+	12700 7700 12700 7600
+Connection ~ 12700 7600
+Wire Wire Line
+	12700 7600 12850 7600
+Wire Wire Line
+	12850 7850 12850 7600
+Connection ~ 12850 7600
+Wire Wire Line
+	12850 7600 12900 7600
+Wire Wire Line
+	12850 7600 12850 7150
+Wire Wire Line
+	12850 7150 13050 7150
+Wire Wire Line
+	13350 7150 13550 7150
+Wire Wire Line
+	13550 7150 13550 7600
+Wire Wire Line
+	13550 8050 13550 8200
+Wire Wire Line
+	13550 8200 13200 8200
+Wire Wire Line
+	12850 8200 12850 8050
+Wire Wire Line
+	13200 7900 13200 8200
+Connection ~ 13200 8200
+Wire Wire Line
+	13200 8200 12850 8200
+$Comp
+L power:GND #PWR0115
+U 1 1 5FD206CC
+P 13200 8350
+F 0 "#PWR0115" H 13200 8100 50  0001 C CNN
+F 1 "GND" H 13205 8177 50  0000 C CNN
+F 2 "" H 13200 8350 50  0001 C CNN
+F 3 "" H 13200 8350 50  0001 C CNN
+	1    13200 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 8200 13200 8350
+Wire Wire Line
+	13500 7600 13550 7600
+Connection ~ 13550 7600
+Wire Wire Line
+	13550 7600 13550 7850
+Wire Wire Line
+	13550 7600 13950 7600
+Text Notes 11800 8700 0    50   Italic 10
+Power supply and protection circuit
+Wire Notes Line
+	11700 8800 14400 8800
+Wire Notes Line
+	14400 8800 14400 6750
+Wire Notes Line
+	14400 6750 11700 6750
+Wire Notes Line
+	11700 6750 11700 8800
+Wire Notes Line
+	11700 8600 13300 8600
+Wire Notes Line
+	13300 8600 13300 8800
+Wire Notes Line
+	8350 650  15600 650 
+Wire Notes Line
+	15600 4750 8350 4750
+Wire Notes Line
+	15600 650  15600 4750
+Wire Notes Line
+	8350 650  8350 4750
+Text Notes 8500 4650 0    50   Italic 10
+Underglow\n
+Wire Notes Line
+	8350 4500 9200 4500
+Wire Notes Line
+	9200 4500 9200 4750
+Text GLabel 5450 3600 2    50   Output Italic 10
+INDICATOR1
+Text GLabel 5450 3700 2    50   Output Italic 10
+INDICATOR2
+Text GLabel 5450 3800 2    50   Output Italic 10
+INDICATOR3
+Text GLabel 3300 1950 0    50   Input ~ 0
+NRST
+Text GLabel 3300 2150 0    50   Input ~ 0
+BOOT0
+Text GLabel 5450 2200 2    60   Input ~ 0
+ROW-6
+$Comp
+L power:GND #PWR0116
+U 1 1 602F9B3B
+P 4400 5150
+F 0 "#PWR0116" H 4400 4900 50  0001 C CNN
+F 1 "GND" H 4405 4977 50  0000 C CNN
+F 2 "" H 4400 5150 50  0001 C CNN
+F 3 "" H 4400 5150 50  0001 C CNN
+	1    4400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5000 4250 5100
+Wire Wire Line
+	4250 5100 4350 5100
+Wire Wire Line
+	4550 5100 4550 5000
+Wire Wire Line
+	4350 5000 4350 5100
+Connection ~ 4350 5100
+Wire Wire Line
+	4350 5100 4400 5100
+Wire Wire Line
+	4450 5000 4450 5100
+Connection ~ 4450 5100
+Wire Wire Line
+	4450 5100 4550 5100
+Wire Wire Line
+	4400 5100 4400 5150
+Connection ~ 4400 5100
+Wire Wire Line
+	4400 5100 4450 5100
+Text GLabel 3650 1350 0    50   Input ~ 10
+3.3V
+Wire Wire Line
+	3650 1350 4100 1350
+Wire Wire Line
+	4100 1350 4100 1550
+Wire Notes Line
+	6450 5450 6450 1100
+Wire Notes Line
+	6450 1100 2400 1100
+Wire Notes Line
+	2400 1100 2400 5450
+Text Notes 2550 5400 0    50   Italic 10
+MCU
+Wire Notes Line
+	2400 5250 2950 5250
+Wire Notes Line
+	2950 5250 2950 5450
+Wire Notes Line
+	2400 5450 6450 5450
+Text GLabel 9000 1150 1    50   Input Italic 10
+5v
+$Comp
+L acheronSymbols:STM32F072_LQFP48 U1
+U 1 1 5FEB6E88
+P 4400 3250
+F 0 "U1" H 3700 1400 50  0000 C CNB
+F 1 "STM32F072_LQFP48" H 3750 1500 50  0000 C CNB
+F 2 "acheron_Components:LQFP-48_7x7mm_P0.5mm" H 3650 1850 50  0001 R CNN
+F 3 "" H 4400 3250 50  0001 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1550 4700 1350
+Wire Wire Line
+	4700 1350 4550 1350
+Connection ~ 4100 1350
+Wire Wire Line
+	4250 1550 4250 1350
+Connection ~ 4250 1350
+Wire Wire Line
+	4250 1350 4100 1350
+Wire Wire Line
+	4400 1550 4400 1350
+Connection ~ 4400 1350
+Wire Wire Line
+	4400 1350 4250 1350
+Wire Wire Line
+	4550 1550 4550 1350
+Connection ~ 4550 1350
+Wire Wire Line
+	4550 1350 4400 1350
+Text GLabel 3300 4500 0    50   BiDi ~ 0
+SWCLK
+Text GLabel 3300 4400 0    50   BiDi ~ 0
+SWDIO
+$Comp
+L Device:R_Small R6
+U 1 1 5FA4805A
+P 9950 10000
+F 0 "R6" V 9877 10000 31  0000 C CNN
+F 1 "360" V 9953 10000 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 10000 50  0001 C CNN
+F 3 "~" H 9950 10000 50  0001 C CNN
+	1    9950 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5FA59915
+P 10400 10000
+F 0 "R7" V 10327 10000 31  0000 C CNN
+F 1 "360" V 10403 10000 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10400 10000 50  0001 C CNN
+F 3 "~" H 10400 10000 50  0001 C CNN
+	1    10400 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5FA6AF62
+P 10700 10000
+F 0 "R8" V 10627 10000 31  0000 C CNN
+F 1 "360" V 10703 10000 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 10000 50  0001 C CNN
+F 3 "~" H 10700 10000 50  0001 C CNN
+	1    10700 10000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11200 9050 9700 9050
+Wire Notes Line
+	9700 9050 9700 10450
+Wire Notes Line
+	11200 9050 11200 10450
+$Comp
+L Device:LED_Small LEDCAPS2
+U 1 1 5FA965D8
+P 10500 9800
+F 0 "LEDCAPS2" V 10500 9730 31  0000 R CNN
+F 1 "L" V 10469 9730 31  0001 R CNN
+F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" V 10500 9800 50  0001 C CNN
+F 3 "~" V 10500 9800 50  0001 C CNN
+	1    10500 9800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 9600 10500 9700
+Wire Wire Line
+	10500 10100 10500 10200
+Connection ~ 10500 10200
+Wire Wire Line
+	10500 10200 10700 10200
+Wire Wire Line
+	10300 9900 10400 9900
+Connection ~ 10400 9900
+Wire Wire Line
+	10400 9900 10500 9900
+Wire Wire Line
+	10300 10100 10400 10100
+Connection ~ 10400 10100
+Wire Wire Line
+	10400 10100 10500 10100
+Wire Wire Line
+	10300 9600 10500 9600
+Text GLabel 7900 8950 1    50   Input ~ 10
+3.3V
+$Comp
+L Device:R_Small R9
+U 1 1 5FCD3D34
+P 8900 1450
+F 0 "R9" V 8827 1450 31  0000 C CNN
+F 1 "360" V 8903 1450 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 1450 50  0001 C CNN
+F 3 "~" H 8900 1450 50  0001 C CNN
+	1    8900 1450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10750 3900 1    50   Input Italic 10
+5v
+$EndSCHEMATC

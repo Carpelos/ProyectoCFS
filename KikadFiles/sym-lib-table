@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Proyecto-CFSUnderglow-rescue)(type Legacy)(uri "${KIPRJMOD}/Proyecto CFSUnderglow-rescue.lib")(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name C-47)(type Legacy)(uri ${KIPRJMOD}/LOGO/C-47.lib)(options "")(descr ""))
+  (lib (name Proyecto_CFS)(type Legacy)(uri "${KIPRJMOD}/LOGO/Proyecto CFS.lib")(options "")(descr ""))
+)
